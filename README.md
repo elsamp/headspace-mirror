@@ -17,7 +17,7 @@ Of these three sections, the element that caused me the most head scratching and
 <img width="1038" alt="HeadspaceMirror-MainTabScreen" src="https://github.com/user-attachments/assets/bfbef33d-ac1b-46ca-81b3-8f70695ae04d">
 
 ## Content Sections
-Without actual imagery for most of the content screens they are a little drab, but follow the overall structure and can very easily be updated to include graphics if I ever get to that. While it would be fun to go back to my illustration roots and spend some time creating a bunch of snazzy assets to use, I decided it wasn't the most valuable use of my time at the moment.
+Without actual imagery for most of the content screens they are a little drab, but they follow the overall structure, and can very easily be updated to include graphics if I ever get to that. While it would be fun to go back to my illustration roots and spend some time creating a bunch of snazzy assets to use, I decided it wasn't the most valuable use of my time at the moment.
 
 Within these screens, the Featured Activity Carousel took a bit of time to figure out. I went down a few wrong paths in my hunt for finding the best approach. In the end, my searches and experiments turned up a very handy modifier `.scrollTargetBehavior(.viewAligned)`, and combined with `.scrollPosition(id: $scrollIndex)` it gave me what I needed to solve the problem with just a few lines of code.
 
@@ -28,7 +28,8 @@ While I specifically stayed away from spending time creating imagery, I did play
 
 <img width="1038" alt="Screenshot 2024-08-16 at 3 28 41 PM" src="https://github.com/user-attachments/assets/18eb4e5e-e1c2-4aca-81ae-a2d31e49bfe4">
 
-The quality of each varies as I was learning and adapting my approach throughout the process. At some point I'd love to go back and rethink this as a flexible box of components to enable easy image creation. For now it will stay as the learning experiment it was.
+
+The quality of the underlying code for each varies as I was learning and adapting my approach throughout the process. At some point I'd love to go back and rethink this as a flexible box of components to enable easy image creation. For now it will stay as the learning experiment it was.
 
 
 
