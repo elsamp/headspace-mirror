@@ -11,3 +11,7 @@ I started this project as a means to practice my Swift UI skills without the nee
 - Additional Unit Testing where it makes sense (business logic is minimal)
 - Revisiting and replacing placeholder imagery
 
+<img width="1038" alt="HeadspaceMirror-MainTabScreen" src="https://github.com/user-attachments/assets/bfbef33d-ac1b-46ca-81b3-8f70695ae04d">
+<img width="1034" alt="HeadspaceMirror-ContentScreens" src="https://github.com/user-attachments/assets/112d4d1e-b318-489d-839b-aa7bd34f7529">
+
+
