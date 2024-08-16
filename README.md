@@ -11,7 +11,16 @@ I started this project as a means to practice my Swift UI skills without the nee
 - Additional Unit Testing where it makes sense (business logic is minimal)
 - Revisiting and replacing placeholder imagery
 
+## Main Tab Sections
+Of these three sections, the element that caused me the most head scratching and days of reading and searching was actually that innocuous little dotted line between activity status indicators on the Today tab. In the end, the solution was to use `PreferenceKey` and pass the positions from the individual icon views back up to the parent view. It was a simple and satisfyingly clean solution once it came together.
+
 <img width="1038" alt="HeadspaceMirror-MainTabScreen" src="https://github.com/user-attachments/assets/bfbef33d-ac1b-46ca-81b3-8f70695ae04d">
+
+## Content Sections
+Without actual imagery for most of the content screens they are a little drab, but follow the overall structure and can very easily be updated to include graphics if I ever get to that. While it would be fun to go back to my illustration roots and spend some time creating a bunch of snazzy assets to use, I decided it wasn't the most valuable use of my time at the moment.
+
+Within these screens, the Featured Activity Carousel took a bit of time to figure out. I went down a few wrong paths in my hunt for finding the best approach. In the end, my searches and experiments turned up a very handy modifier `.scrollTargetBehavior(.viewAligned)`, and combined with `.scrollPosition(id: $scrollIndex)` it gave me what I needed to solve the problem with just a few lines of code.
+
 <img width="1034" alt="HeadspaceMirror-ContentScreens" src="https://github.com/user-attachments/assets/112d4d1e-b318-489d-839b-aa7bd34f7529">
 
 
