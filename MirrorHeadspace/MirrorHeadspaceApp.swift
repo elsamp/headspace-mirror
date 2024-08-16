@@ -11,7 +11,9 @@ import SwiftUI
 struct MirrorHeadspaceApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView(viewModel: MainViewModel(userDataService: MockDataService(),
+                                              activityDataService: MockDataService(),
+                                              focusAreaDataService: MockDataService()))
         }
     }
 }

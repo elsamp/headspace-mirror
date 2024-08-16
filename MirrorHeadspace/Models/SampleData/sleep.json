@@ -1,0 +1,362 @@
+{
+    "focusArea": {
+      "id": "8f5f1b4b-9b4e-439e-9316-5cg2e08w2c8d",
+      "title": "Sleep",
+      "colorTheme": "purple",
+      "featuredActivity": {
+        "title": "Himalayan Mist",
+        "id": "7c9c2c53-4b73-4a58-b2b3-4a2d4a9d4db7",
+        "description": "A restful getaway in the mountains.",
+        "activityType": "Sleepcast",
+        "mediaType": "audio",
+        "minDuration": null,
+        "maxDuration": 40,
+        "status": "suggested",
+        "isFavorite": false
+      },
+      "recentActivities": [
+        {
+          "title": "Peaceful Yosemite",
+          "id": "2b491c6c-6e7a-47b2-b7e3-f27742c79c7f",
+          "description": "Dream of granite peaks and sun-dappled meadows.",
+          "activityType": "Sleepcast",
+          "mediaType": "audio",
+          "minDuration": 10,
+          "maxDuration": 10,
+          "status": "suggested",
+          "isFavorite": false
+        },
+        {
+          "title": "Moonlit Olympic",
+          "id": "a30a013b-e263-40f5-a8cf-2d37b5c5a6d0",
+          "description": "A 6-minute mindful breathing exercise to reduce stress.",
+          "activityType": "Sleepcast",
+          "mediaType": "audio",
+          "minDuration": 6,
+          "maxDuration": 6,
+          "status": "suggested",
+          "isFavorite": false
+        },
+        {
+          "title": "Majestic Zion",
+          "id": "c8d9a5f3-2d98-4d29-a5b7-3a0ec5b5d3a2",
+          "description": "Drift off amongst magestic sandstone structures.",
+          "activityType": "Sleepcast",
+          "mediaType": "audio",
+          "minDuration": 5,
+          "maxDuration": 5,
+          "status": "suggested",
+          "isFavorite": false
+        }
+      ],
+      "recommendedActivities": [
+        {
+          "title": "Midnight Launderette",
+          "id": "d56c5b58-4b93-4c87-a1db-0d7e24d9e5a8",
+          "description": "A 7-minute guided relaxation to ease tension.",
+          "activityType": "Sleepcast",
+          "mediaType": "audio",
+          "minDuration": 7,
+          "maxDuration": 7,
+          "status": "suggested",
+          "isFavorite": false
+        },
+        {
+          "title": "Enchanted Moonlight Library",
+          "id": "b3296f22-855b-4b73-9f4c-5b7a3e9c15b3",
+          "description": "A 6-minute deep breathing exercise to calm your mind.",
+          "activityType": "Sleepcast",
+          "mediaType": "audio",
+          "minDuration": 6,
+          "maxDuration": 6,
+          "status": "suggested",
+          "isFavorite": false
+        },
+        {
+            "title": "Enchanted Moonlight Library",
+            "id": "b3296f22-855b-4b73-9f4c-5b7a3e9c15b3",
+            "description": "A 6-minute deep breathing exercise to calm your mind.",
+            "activityType": "Sleepcast",
+            "mediaType": "audio",
+            "minDuration": 6,
+            "maxDuration": 6,
+            "status": "suggested",
+            "isFavorite": false
+          }
+      ],
+      "collections": [
+        {
+          "id": "c1b5e5c4-3f3a-4c92-8ad7-0428e446e5b94",
+          "title": "Sleepcasts",
+          "description": "Ever-changing storytelling in a range of soothing voices.",
+          "featuredLists": [
+            {
+              "id": "f5b97bcd-dc70-4c1e-9b74-8d2d6f65e2b4",
+              "title": "What's New",
+              "bannerText": null,
+              "activities": [
+                {
+                    "title": "Sakura Hot Springs",
+                    "id": "7c9c2c53-4b73-4a58-b2b3-4a2d4a9d4db7",
+                    "description": "",
+                    "activityType": "Sleepcast",
+                    "mediaType": "audio",
+                    "minDuration": 5,
+                    "maxDuration": 5,
+                    "status": "suggested",
+                    "isFavorite": false
+                },
+                {
+                    "title": "Crystal Shop",
+                    "id": "2b491c6c-6e7a-47b2-b7e3-fd77d2c79c7f",
+                    "description": "",
+                    "activityType": "Sleepcast",
+                    "mediaType": "audio",
+                    "minDuration": 10,
+                    "maxDuration": 10,
+                    "status": "suggested",
+                    "isFavorite": false
+                },
+                {
+                    "title": "Material World",
+                    "id": "d56c5b58-4b93-4c87-a1db-0d7e24d9e5a8",
+                    "description": "",
+                    "activityType": "Sleepcast",
+                    "mediaType": "audio",
+                    "minDuration": 7,
+                    "maxDuration": 7,
+                    "status": "suggested",
+                    "isFavorite": false
+                }
+              ]
+            }
+          ],
+          "activityLists": [
+            {
+              "id": "d1c4cdbb-5f67-4c29-b7f2-68a3d59d29b0",
+              "title": "Sleepcasts A-Z",
+              "bannerText": null,
+              "activities": [
+                {
+                    "title": "3-Minute Deep Breathing",
+                    "id": "b3296f22-855b-4b73-9f4c-5b7a3e9c15b3",
+                    "description": "Short 3-minute deep breathing exercise for quick relaxation.",
+                    "activityType": "Mindful Activity",
+                    "mediaType": "audio",
+                    "minDuration": 3,
+                    "maxDuration": 3,
+                    "status": "suggested",
+                    "isFavorite": false
+                },
+                {
+                    "title": "Breathing for Calm",
+                    "id": "4cde6b6b-6d98-43b7-b682-bfe0716b3e8f",
+                    "description": "Focus on your breath with this 5-minute exercise.",
+                    "activityType": "Mindful Activity",
+                    "mediaType": "audio",
+                    "minDuration": 5,
+                    "maxDuration": 5,
+                    "status": "suggested",
+                    "isFavorite": false
+                },
+                {
+                    "title": "Balanced Breathing",
+                    "id": "d3f5f823-eab2-4b9a-b7b6-4c45f4b0f3b4",
+                    "description": "10-minute breathing exercise to help you balance your emotions.",
+                    "activityType": "Mindful Activity",
+                    "mediaType": "audio",
+                    "minDuration": 10,
+                    "maxDuration": 10,
+                    "status": "suggested",
+                    "isFavorite": false
+                },
+                {
+                    "title": "Breath Awareness",
+                    "id": "71f93c0b-d1e4-47d6-a1e4-df76aaf75578",
+                    "description": "A 7-minute practice to increase your awareness of your breath.",
+                    "activityType": "Mindful Activity",
+                    "mediaType": "audio",
+                    "minDuration": 7,
+                    "maxDuration": 7,
+                    "status": "suggested",
+                    "isFavorite": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "e94b723c-b3b1-4d09-9b8f-d66ef6a87b0",
+          "title": "White Noise & Sleep Sounds",
+          "description": "A spectrum of sounds to help you drift off, relax or focus. Eight hours of interruption free sonic dreams. ",
+          "featuredLists": [],
+          "activityLists": [
+            {
+              
+                "id": "e3b472b4-58fc-4c9e-8b12-0de5e8b013fa",
+                "title": "Peaceful Noise",
+                "bannerText": null,
+                "activities": [
+                  {
+                      "title": "Orange Noise",
+                      "id": "c8d9a5f3-2d98-4d29-a5b7-3a0ec5b5d3a2",
+                      "description": "Meet our signature Headspace sound.",
+                      "activityType": "Sleep Music",
+                      "mediaType": "audio",
+                      "minDuration": 60,
+                      "maxDuration": 480,
+                      "status": "suggested",
+                      "isFavorite": false
+                  },
+                  {
+                      "title": "Pink Noise",
+                      "id": "56d8f3b4-9b65-4d47-bb38-8bfc7e1d1d0d",
+                      "description": "Soothing like soft spring showers.",
+                      "activityType": "Sleep Music",
+                      "mediaType": "audio",
+                      "minDuration": 60,
+                      "maxDuration": 480,
+                      "status": "suggested",
+                      "isFavorite": false
+                  },
+                  {
+                      "title": "White Noise",
+                      "id": "fbcb8c5d-46b8-4b85-9118-f2b79e6d6f6c",
+                      "description": "Calming, like steady rainfall.",
+                      "activityType": "Sleep Music",
+                      "mediaType": "audio",
+                      "minDuration": 60,
+                      "maxDuration": 480,
+                      "status": "suggested",
+                      "isFavorite": false
+                  },
+                  {
+                      "title": "Brown Noise",
+                      "id": "8b32c40d-251c-4d6b-98c7-03aeb6a9bc89",
+                      "description": "Deep, list a gust of mountain wind.",
+                      "activityType": "Sleep Music",
+                      "mediaType": "audio",
+                      "minDuration": 60,
+                      "maxDuration": 480,
+                      "status": "suggested",
+                      "isFavorite": false
+                  }
+                ]
+            }
+          ]
+  
+        },
+        {
+            "id": "d94f124c-6b4b-4e70-a4c7-9e88cer4e99eb",
+            "title": "Wind Downs",
+            "description": "Meditations and exercises to bring peace and tranquility at night.",
+            "featuredLists": [],
+            "activityLists": [
+              {
+                  "id": "dd7e5c91-85c4-4c90-92b0-b8d98d11877e",
+                  "title": "Mindful Sleep",
+                  "bannerText": "Start your day right with these refreshing morning meditations.",
+                  "activities": [
+                    {
+                        "title": "Let Go of Tension",
+                        "id": "a18e4c61-989b-4b72-bf8d-b0a571e6c4c1",
+                        "description": "Allow relaxation to naturally arise",
+                        "activityType": "Wind Down",
+                        "mediaType": "audio",
+                        "minDuration": null,
+                        "maxDuration": 7,
+                        "status": "suggested",
+                        "isFavorite": false
+                    },
+                    {
+                        "title": "Focused Breathing",
+                        "id": "15d4a1e5-2f91-4e70-b1b7-1dcd27e0d1e3",
+                        "description": "Gentle, deep breathing to help you unwind.",
+                        "activityType": "Wind Down",
+                        "mediaType": "audio",
+                        "minDuration": null,
+                        "maxDuration": 5,
+                        "status": "suggested",
+                        "isFavorite": false
+                    },
+                    {
+                        "title": "Gratitude Before Bed",
+                        "id": "bde7d517-27a4-4c3d-b4c4-d1dbd39a8a32",
+                        "description": "Let gratitude surround you like a warm hug",
+                        "activityType": "Wind Down",
+                        "mediaType": "audio",
+                        "minDuration": null,
+                        "maxDuration": 4,
+                        "status": "suggested",
+                        "isFavorite": false
+                    },
+                    {
+                        "title": "Gentle Wind",
+                        "id": "e0f9a1b3-7e2f-4d1e-bb9e-827a6d1e9c8f",
+                        "description": "Imagin a soft breeze flowing over your body.",
+                        "activityType": "Meditation",
+                        "mediaType": "audio",
+                        "minDuration": 6,
+                        "maxDuration": 6,
+                        "status": "suggested",
+                        "isFavorite": false
+                    }
+                  ]
+              },
+              {
+                "id": "dd7e5c91-865c4-4c90-92b0-b8d968d11877e",
+                "title": "Wind Downs with Nature",
+                "bannerText": null,
+                "activities": [
+                  {
+                      "title": "Unwind in Maui",
+                      "id": "a18e4c61-989b-4b72-bf8d-b0a5716e6c4c1",
+                      "description": "Allow relaxation to naturally arise",
+                      "activityType": "Wind Down",
+                      "mediaType": "audio",
+                      "minDuration": null,
+                      "maxDuration": 7,
+                      "status": "suggested",
+                      "isFavorite": false
+                  },
+                  {
+                      "title": "Nighttime in Joshua Tree",
+                      "id": "15d4a1e5-2f91-4e70-b1b7-1dcd27e40d1e3",
+                      "description": "Gentle, deep breathing to help you unwind.",
+                      "activityType": "Wind Down",
+                      "mediaType": "audio",
+                      "minDuration": null,
+                      "maxDuration": 5,
+                      "status": "suggested",
+                      "isFavorite": false
+                  },
+                  {
+                      "title": "Rainy Grove",
+                      "id": "bde7d517-27a4-4c3d-b4c4-d1db6d39a8a32",
+                      "description": "Let gratitude surround you like a warm hug",
+                      "activityType": "Wind Down",
+                      "mediaType": "audio",
+                      "minDuration": null,
+                      "maxDuration": 4,
+                      "status": "suggested",
+                      "isFavorite": false
+                  },
+                  {
+                      "title": "Twilight Beach",
+                      "id": "e0f9a1b3-7e2f-4d1e-bb9e-827a66d1e9c8f",
+                      "description": "Imagin a soft breeze flowing over your body.",
+                      "activityType": "Meditation",
+                      "mediaType": "audio",
+                      "minDuration": 6,
+                      "maxDuration": 6,
+                      "status": "suggested",
+                      "isFavorite": false
+                  }
+                ]
+            }
+            ]
+        }
+      ]
+    }
+  }
+  

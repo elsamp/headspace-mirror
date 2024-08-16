@@ -1,0 +1,754 @@
+{
+  "focusArea": {
+    "id": "8f5f1b4b-9b4e-4e9e-9316-5c62e08f2c8d",
+    "title": "Meditate",
+    "colorTheme": "orange",
+    "featuredActivity": {
+      "title": "5-Minute Guided Meditation",
+      "id": "7c9c2c53-4b73-4a58-b2b3-4a2d4a9d4db7",
+      "description": "A short guided meditation to relax your mind in 5 minutes.",
+      "activityType": "Meditation",
+      "mediaType": "audio",
+      "minDuration": 5,
+      "maxDuration": 5,
+      "status": "suggested",
+      "isFavorite": false
+    },
+    "recentActivities": [
+      {
+        "title": "Calm Your Mind",
+        "id": "2b491c6c-6e7a-47b2-b7e3-fd77d2c79c7f",
+        "description": "A 10-minute session to calm and center your thoughts.",
+        "activityType": "Meditation",
+        "mediaType": "audio",
+        "minDuration": 10,
+        "maxDuration": 10,
+        "status": "suggested",
+        "isFavorite": false
+      },
+      {
+        "title": "Mindful Breathing",
+        "id": "a30a013b-e263-40f5-a8cf-2d37b5c5a6d0",
+        "description": "A 6-minute mindful breathing exercise to reduce stress.",
+        "activityType": "Mindful Activity",
+        "mediaType": "audio",
+        "minDuration": 6,
+        "maxDuration": 6,
+        "status": "suggested",
+        "isFavorite": false
+      },
+      {
+        "title": "Centering Focus",
+        "id": "c8d9a5f3-2d98-4d29-a5b7-3a0ec5b5d3a2",
+        "description": "5-minute centering exercise to ground yourself.",
+        "activityType": "Mindful Activity",
+        "mediaType": "audio",
+        "minDuration": 5,
+        "maxDuration": 5,
+        "status": "suggested",
+        "isFavorite": false
+      }
+    ],
+    "recommendedActivities": [
+      {
+        "title": "Gentle Relaxation",
+        "id": "d56c5b58-4b93-4c87-a1db-0d7e24d9e5a8",
+        "description": "A 7-minute guided relaxation to ease tension.",
+        "activityType": "Meditation",
+        "mediaType": "audio",
+        "minDuration": 7,
+        "maxDuration": 7,
+        "status": "suggested",
+        "isFavorite": false
+      },
+      {
+        "title": "Deep Breathing",
+        "id": "b3296f22-855b-4b73-9f4c-5b7a3e9c15b3",
+        "description": "A 6-minute deep breathing exercise to calm your mind.",
+        "activityType": "Mindful Activity",
+        "mediaType": "audio",
+        "minDuration": 6,
+        "maxDuration": 6,
+        "status": "suggested",
+        "isFavorite": false
+      }
+    ],
+    "collections": [
+      {
+        "id": "c1b5e5c4-3f3a-4c92-8ad7-0428e46e5b94",
+        "title": "Daily Calm",
+        "description": "A collection of meditations to bring calm to your daily routine.",
+        "featuredLists": [
+          {
+            "id": "f5b97bcd-dc70-4c1e-9b74-8d2d6f65e2b4",
+            "title": "Relaxing Meditations",
+            "bannerText": "Meditations designed to help you relax and unwind.",
+            "activities": [
+              {
+                  "title": "5-Minute Guided Meditation",
+                  "id": "7c9c2c53-4b73-4a58-b2b3-4a2d4a9d4db7",
+                  "description": "A short guided meditation to relax your mind in 5 minutes.",
+                  "activityType": "Meditation",
+                  "mediaType": "audio",
+                  "minDuration": 5,
+                  "maxDuration": 5,
+                  "status": "suggested",
+                  "isFavorite": false
+              },
+              {
+                  "title": "Calm Your Mind",
+                  "id": "2b491c6c-6e7a-47b2-b7e3-fd77d2c79c7f",
+                  "description": "A 10-minute session to calm and center your thoughts.",
+                  "activityType": "Meditation",
+                  "mediaType": "audio",
+                  "minDuration": 10,
+                  "maxDuration": 10,
+                  "status": "suggested",
+                  "isFavorite": false
+              },
+              {
+                  "title": "Gentle Relaxation",
+                  "id": "d56c5b58-4b93-4c87-a1db-0d7e24d9e5a8",
+                  "description": "Relax with a gentle 7-minute meditation.",
+                  "activityType": "Meditation",
+                  "mediaType": "audio",
+                  "minDuration": 7,
+                  "maxDuration": 7,
+                  "status": "suggested",
+                  "isFavorite": false
+              },
+              {
+                  "title": "Mindful Breathing",
+                  "id": "a30a013b-e263-40f5-a8cf-2d37b5c5a6d0",
+                  "description": "A 6-minute mindful breathing exercise to reduce stress.",
+                  "activityType": "Mindful Activity",
+                  "mediaType": "audio",
+                  "minDuration": 6,
+                  "maxDuration": 6,
+                  "status": "suggested",
+                  "isFavorite": false
+              }
+            ]
+          }
+        ],
+        "activityLists": [
+          {
+            "id": "d1c4cdbb-5f67-4c29-b7f2-68a3d59d29b0",
+            "title": "Deep Breathing Practices",
+            "bannerText": "Exercises focused on deep breathing to enhance relaxation.",
+            "activities": [
+              {
+                  "title": "3-Minute Deep Breathing",
+                  "id": "b3296f22-855b-4b73-9f4c-5b7a3e9c15b3",
+                  "description": "Short 3-minute deep breathing exercise for quick relaxation.",
+                  "activityType": "Mindful Activity",
+                  "mediaType": "audio",
+                  "minDuration": 3,
+                  "maxDuration": 3,
+                  "status": "suggested",
+                  "isFavorite": false
+              },
+              {
+                  "title": "Breathing for Calm",
+                  "id": "4cde6b6b-6d98-43b7-b682-bfe0716b3e8f",
+                  "description": "Focus on your breath with this 5-minute exercise.",
+                  "activityType": "Mindful Activity",
+                  "mediaType": "audio",
+                  "minDuration": 5,
+                  "maxDuration": 5,
+                  "status": "suggested",
+                  "isFavorite": false
+              },
+              {
+                  "title": "Balanced Breathing",
+                  "id": "d3f5f823-eab2-4b9a-b7b6-4c45f4b0f3b4",
+                  "description": "10-minute breathing exercise to help you balance your emotions.",
+                  "activityType": "Mindful Activity",
+                  "mediaType": "audio",
+                  "minDuration": 10,
+                  "maxDuration": 10,
+                  "status": "suggested",
+                  "isFavorite": false
+              },
+              {
+                  "title": "Breath Awareness",
+                  "id": "71f93c0b-d1e4-47d6-a1e4-df76aaf75578",
+                  "description": "A 7-minute practice to increase your awareness of your breath.",
+                  "activityType": "Mindful Activity",
+                  "mediaType": "audio",
+                  "minDuration": 7,
+                  "maxDuration": 7,
+                  "status": "suggested",
+                  "isFavorite": false
+              }
+            ]
+          },
+          {
+            
+              "id": "a0d24b5e-d49d-4c47-b8b8-63665a914ec2",
+              "title": "Quick Mindfulness Sessions",
+              "bannerText": "Short sessions to quickly center and focus your mind.",
+              "activities": [
+                {
+                    "title": "Mindful Minute",
+                    "id": "e0f6e46a-1a3c-4b63-bf68-04b0556b39d8",
+                    "description": "A quick 1-minute mindfulness session to center yourself.",
+                    "activityType": "Mindful Activity",
+                    "mediaType": "audio",
+                    "minDuration": 1,
+                    "maxDuration": 1,
+                    "status": "suggested",
+                    "isFavorite": false
+                },
+                {
+                    "title": "2-Minute Focus",
+                    "id": "0d9a3bb9-21d4-4c32-8dbb-d9b07a5c6371",
+                    "description": "A short 2-minute session to help you focus.",
+                    "activityType": "Mindful Activity",
+                    "mediaType": "audio",
+                    "minDuration": 2,
+                    "maxDuration": 2,
+                    "status": "suggested",
+                    "isFavorite": false
+                },
+                {
+                    "title": "Quick Calm",
+                    "id": "6c99e72b-845b-4c3e-9f91-5f91b7e56b60",
+                    "description": "3-minute mindfulness exercise for a quick calm.",
+                    "activityType": "Mindful Activity",
+                    "mediaType": "audio",
+                    "minDuration": 3,
+                    "maxDuration": 3,
+                    "status": "suggested",
+                    "isFavorite": false
+                },
+                {
+                    "title": "Instant Relaxation",
+                    "id": "5e4d7b6a-4a8d-4f89-9c7d-3f85f55c5b63",
+                    "description": "A 4-minute instant relaxation exercise.",
+                    "activityType": "Mindful Activity",
+                    "mediaType": "audio",
+                    "minDuration": 4,
+                    "maxDuration": 4,
+                    "status": "suggested",
+                    "isFavorite": false
+
+                }
+              ]
+            
+          }
+        ]
+      },
+      {
+        "id": "e94b723c-b3b1-4d09-9b8f-d066ef6a87b0",
+        "title": "Mindfulness Boosters",
+        "description": "Boost your mindfulness with quick and effective exercises.",
+        "featuredLists": [
+          {
+            "id": "a0d24b5e-d49d-4c47-b8b8-63665a914ec2",
+            "title": "Quick Mindfulness Sessions",
+            "bannerText": "Short sessions to quickly center and focus your mind.",
+            "activities": [
+              {
+                  "title": "Mindful Minute",
+                  "id": "e0f6e46a-1a3c-4b63-bf68-04b0556b39d8",
+                  "description": "A quick 1-minute mindfulness session to center yourself.",
+                  "activityType": "Mindful Activity",
+                  "mediaType": "audio",
+                  "minDuration": 1,
+                  "maxDuration": 1,
+                  "status": "suggested",
+                  "isFavorite": false
+              },
+              {
+                  "title": "2-Minute Focus",
+                  "id": "0d9a3bb9-21d4-4c32-8dbb-d9b07a5c6371",
+                  "description": "A short 2-minute session to help you focus.",
+                  "activityType": "Mindful Activity",
+                  "mediaType": "audio",
+                  "minDuration": 2,
+                  "maxDuration": 2,
+                  "status": "suggested",
+                  "isFavorite": false
+              },
+              {
+                  "title": "Quick Calm",
+                  "id": "6c99e72b-845b-4c3e-9f91-5f91b7e56b60",
+                  "description": "3-minute mindfulness exercise for a quick calm.",
+                  "activityType": "Mindful Activity",
+                  "mediaType": "audio",
+                  "minDuration": 3,
+                  "maxDuration": 3,
+                  "status": "suggested",
+                  "isFavorite": false
+              },
+              {
+                  "title": "Instant Relaxation",
+                  "id": "5e4d7b6a-4a8d-4f89-9c7d-3f85f55c5b63",
+                  "description": "A 4-minute instant relaxation exercise.",
+                  "activityType": "Mindful Activity",
+                  "mediaType": "audio",
+                  "minDuration": 4,
+                  "maxDuration": 4,
+                  "status": "suggested",
+                  "isFavorite": false
+              }
+            ]
+          }
+        ],
+        "activityLists": [
+          {
+            
+              "id": "e3b472b4-58fc-4c9e-8b12-0de5e8b013fa",
+              "title": "Centering Exercises",
+              "bannerText": "Exercises to help you center and ground yourself.",
+              "activities": [
+                {
+                  
+                    "title": "Centering Focus",
+                    "id": "c8d9a5f3-2d98-4d29-a5b7-3a0ec5b5d3a2",
+                    "description": "5-minute centering exercise to ground yourself.",
+                    "activityType": "Mindful Activity",
+                    "mediaType": "audio",
+                    "minDuration": 5,
+                    "maxDuration": 5,
+                    "status": "suggested",
+                    "isFavorite": false
+                  
+                },
+                {
+                  
+                    "title": "Mindful Grounding",
+                    "id": "56d8f3b4-9b65-4d47-bb38-8bfc7e1d1d0d",
+                    "description": "7-minute mindful grounding exercise.",
+                    "activityType": "Mindful Activity",
+                    "mediaType": "audio",
+                    "minDuration": 7,
+                    "maxDuration": 7,
+                    "status": "suggested",
+                    "isFavorite": false
+                  
+                },
+                {
+                  
+                    "title": "Grounding Practice",
+                    "id": "fbcb8c5d-46b8-4b85-9118-f2b79e6d6f6c",
+                    "description": "A grounding exercise lasting 8 minutes.",
+                    "activityType": "Mindful Activity",
+                    "mediaType": "audio",
+                    "minDuration": 8,
+                    "maxDuration": 8,
+                    "status": "suggested",
+                    "isFavorite": false
+                  
+                },
+                {
+                  
+                    "title": "Balance Yourself",
+                    "id": "8b32c40d-251c-4d6b-98c7-03aeb6a9bc89",
+                    "description": "A 6-minute exercise to balance and center yourself.",
+                    "activityType": "Mindful Activity",
+                    "mediaType": "audio",
+                    "minDuration": 6,
+                    "maxDuration": 6,
+                    "status": "suggested",
+                    "isFavorite": false
+                  
+                }
+              ]
+            
+          },
+          {
+            
+              "id": "b4d17e92-58f1-4d9c-9d57-f4d8b8e5c7a8",
+              "title": "Nighttime Meditations",
+              "bannerText": "Meditations to help you wind down and prepare for sleep.",
+              "activities": [
+                {
+                  
+                    "title": "Sleep Preparation",
+                    "id": "b672d3c7-291b-48e8-9d9f-2fc64b0fc0b7",
+                    "description": "10-minute meditation to prepare your mind for sleep.",
+                    "activityType": "Meditation",
+                    "mediaType": "audio",
+                    "minDuration": 10,
+                    "maxDuration": 10,
+                    "status": "suggested",
+                    "isFavorite": false
+                  
+                },
+                {
+                  
+                    "title": "Night Calm",
+                    "id": "c40c8e5f-9300-4bb4-85b6-9e6e8b5a23b5",
+                    "description": "8-minute meditation to ease into a restful night.",
+                    "activityType": "Meditation",
+                    "mediaType": "audio",
+                    "minDuration": 8,
+                    "maxDuration": 8,
+                    "status": "suggested",
+                    "isFavorite": false
+                  
+                },
+                {
+                  
+                    "title": "Nightly Reflection",
+                    "id": "d06f1d2b-c4d2-4f41-b47f-833a09eb38c1",
+                    "description": "A reflective 12-minute meditation to end your day.",
+                    "activityType": "Meditation",
+                    "mediaType": "audio",
+                    "minDuration": 12,
+                    "maxDuration": 12,
+                    "status": "suggested",
+                    "isFavorite": false
+                  
+                },
+                {
+                  
+                    "title": "Evening Tranquility",
+                    "id": "a621a0a4-d517-4b2a-944b-2c4fdb50d22e",
+                    "description": "6-minute meditation to find tranquility before bed.",
+                    "activityType": "Meditation",
+                    "mediaType": "audio",
+                    "minDuration": 6,
+                    "maxDuration": 6,
+                    "status": "suggested",
+                    "isFavorite": false
+                  
+                }
+              ]
+            
+          }
+        ]
+
+      },
+      {
+        
+          "id": "d94f124c-6b4b-4e70-a4c7-9e88cb4e99eb",
+          "title": "Evening Peace",
+          "description": "Meditations and exercises to bring peace and tranquility at night.",
+          "featuredLists": [
+            {
+              
+                "id": "b4d17e92-58f1-4d9c-9d57-f4d8b8e5c7a8",
+                "title": "Nighttime Meditations",
+                "bannerText": "Meditations to help you wind down and prepare for sleep.",
+                "activities": [
+                  {
+                    
+                      "title": "Sleep Preparation",
+                      "id": "b672d3c7-291b-48e8-9d9f-2fc64b0fc0b7",
+                      "description": "10-minute meditation to prepare your mind for sleep.",
+                      "activityType": "Meditation",
+                      "mediaType": "audio",
+                      "minDuration": 10,
+                      "maxDuration": 10,
+                      "status": "suggested",
+                      "isFavorite": false
+                    
+                  },
+                  {
+                    
+                      "title": "Night Calm",
+                      "id": "c40c8e5f-9300-4bb4-85b6-9e6e8b5a23b5",
+                      "description": "8-minute meditation to ease into a restful night.",
+                      "activityType": "Meditation",
+                      "mediaType": "audio",
+                      "minDuration": 8,
+                      "maxDuration": 8,
+                      "status": "suggested",
+                      "isFavorite": false
+                    
+                  },
+                  {
+                    
+                      "title": "Nightly Reflection",
+                      "id": "d06f1d2b-c4d2-4f41-b47f-833a09eb38c1",
+                      "description": "A reflective 12-minute meditation to end your day.",
+                      "activityType": "Meditation",
+                      "mediaType": "audio",
+                      "minDuration": 12,
+                      "maxDuration": 12,
+                      "status": "suggested",
+                      "isFavorite": false
+                    
+                  },
+                  {
+                    
+                      "title": "Evening Tranquility",
+                      "id": "a621a0a4-d517-4b2a-944b-2c4fdb50d22e",
+                      "description": "6-minute meditation to find tranquility before bed.",
+                      "activityType": "Meditation",
+                      "mediaType": "audio",
+                      "minDuration": 6,
+                      "maxDuration": 6,
+                      "status": "suggested",
+                      "isFavorite": false
+                    
+                  }
+                ]
+              
+            }
+          ],
+          "activityLists": [
+            {
+              
+                "id": "dd7e5c91-85c4-4c90-92b0-b8d98d11877e",
+                "title": "Morning Meditations",
+                "bannerText": "Start your day right with these refreshing morning meditations.",
+                "activities": [
+                  {
+                    
+                      "title": "Wake Up Mindfully",
+                      "id": "a18e4c61-989b-4b72-bf8d-b0a571e6c4c1",
+                      "description": "Start your day with a refreshing 10-minute morning meditation.",
+                      "activityType": "Meditation",
+                      "mediaType": "audio",
+                      "minDuration": 10,
+                      "maxDuration": 10,
+                      "status": "suggested",
+                      "isFavorite": false
+                    
+                  },
+                  {
+                    
+                      "title": "Morning Clarity",
+                      "id": "15d4a1e5-2f91-4e70-b1b7-1dcd27e0d1e3",
+                      "description": "A 5-minute meditation to bring clarity to your morning.",
+                      "activityType": "Meditation",
+                      "mediaType": "audio",
+                      "minDuration": 5,
+                      "maxDuration": 5,
+                      "status": "suggested",
+                      "isFavorite": false
+                    
+                  },
+                  {
+                    
+                      "title": "Start Fresh",
+                      "id": "bde7d517-27a4-4c3d-b4c4-d1dbd39a8a32",
+                      "description": "10-minute meditation to start your day with a fresh perspective.",
+                      "activityType": "Meditation",
+                      "mediaType": "audio",
+                      "minDuration": 10,
+                      "maxDuration": 10,
+                      "status": "suggested",
+                      "isFavorite": false
+                    
+                  },
+                  {
+                    
+                      "title": "Energizing Start",
+                      "id": "e0f9a1b3-7e2f-4d1e-bb9e-827a6d1e9c8f",
+                      "description": "A 6-minute meditation to energize your start of the day.",
+                      "activityType": "Meditation",
+                      "mediaType": "audio",
+                      "minDuration": 6,
+                      "maxDuration": 6,
+                      "status": "suggested",
+                      "isFavorite": false
+                    
+                  }
+                ]
+              
+            }
+          ]
+
+      },
+      {
+        
+          "id": "d8c8b287-9ef1-42f7-a0e2-03d2d9b52b7d",
+          "title": "Morning Mindfulness",
+          "description": "Start your day with mindfulness and positivity.",
+          "featuredLists": [
+            {
+              
+                "id": "dd7e5c91-85c4-4c90-92b0-b8d98d11877e",
+                "title": "Morning Meditations",
+                "bannerText": "Start your day right with these refreshing morning meditations.",
+                "activities": [
+                  {
+                    
+                      "title": "Wake Up Mindfully",
+                      "id": "a18e4c61-989b-4b72-bf8d-b0a571e6c4c1",
+                      "description": "Start your day with a refreshing 10-minute morning meditation.",
+                      "activityType": "Meditation",
+                      "mediaType": "audio",
+                      "minDuration": 10,
+                      "maxDuration": 10,
+                      "status": "suggested",
+                      "isFavorite": false
+
+                  },
+                  {
+                    
+                      "title": "Morning Clarity",
+                      "id": "15d4a1e5-2f91-4e70-b1b7-1dcd27e0d1e3",
+                      "description": "A 5-minute meditation to bring clarity to your morning.",
+                      "activityType": "Meditation",
+                      "mediaType": "audio",
+                      "minDuration": 5,
+                      "maxDuration": 5,
+                      "status": "suggested",
+                      "isFavorite": false
+
+                  },
+                  {
+                    
+                      "title": "Start Fresh",
+                      "id": "bde7d517-27a4-4c3d-b4c4-d1dbd39a8a32",
+                      "description": "10-minute meditation to start your day with a fresh perspective.",
+                      "activityType": "Meditation",
+                      "mediaType": "audio",
+                      "minDuration": 10,
+                      "maxDuration": 10,
+                      "status": "suggested",
+                      "isFavorite": false
+
+                  },
+                  {
+                    
+                      "title": "Energizing Start",
+                      "id": "e0f9a1b3-7e2f-4d1e-bb9e-827a6d1e9c8f",
+                      "description": "A 6-minute meditation to energize your start of the day.",
+                      "activityType": "Meditation",
+                      "mediaType": "audio",
+                      "minDuration": 6,
+                      "maxDuration": 6,
+                      "status": "suggested",
+                      "isFavorite": false
+                    }
+
+                ]
+
+            }
+          ],
+          "activityLists": [
+            {
+              
+                "id": "f5b97bcd-dc70-4c1e-9b74-8d2d6f65e2b4",
+                "title": "Relaxing Meditations",
+                "bannerText": "Meditations designed to help you relax and unwind.",
+                "activities": [
+                  {
+                    
+                      "title": "5-Minute Guided Meditation",
+                      "id": "7c9c2c53-4b73-4a58-b2b3-4a2d4a9d4db7",
+                      "description": "A short guided meditation to relax your mind in 5 minutes.",
+                      "activityType": "Meditation",
+                      "mediaType": "audio",
+                      "minDuration": 5,
+                      "maxDuration": 5,
+                      "status": "suggested",
+                      "isFavorite": false
+
+                  },
+                  {
+                    
+                      "title": "Calm Your Mind",
+                      "id": "2b491c6c-6e7a-47b2-b7e3-fd77d2c79c7f",
+                      "description": "A 10-minute session to calm and center your thoughts.",
+                      "activityType": "Meditation",
+                      "mediaType": "audio",
+                      "minDuration": 10,
+                      "maxDuration": 10,
+                      "status": "suggested",
+                      "isFavorite": false
+
+                  },
+                  {
+                    
+                      "title": "Gentle Relaxation",
+                      "id": "d56c5b58-4b93-4c87-a1db-0d7e24d9e5a8",
+                      "description": "Relax with a gentle 7-minute meditation.",
+                      "activityType": "Meditation",
+                      "mediaType": "audio",
+                      "minDuration": 7,
+                      "maxDuration": 7,
+                      "status": "suggested",
+                      "isFavorite": false
+
+                  },
+                  {
+                    
+                      "title": "Mindful Breathing",
+                      "id": "a30a013b-e263-40f5-a8cf-2d37b5c5a6d0",
+                      "description": "A 6-minute mindful breathing exercise to reduce stress.",
+                      "activityType": "Mindful Activity",
+                      "mediaType": "audio",
+                      "minDuration": 6,
+                      "maxDuration": 6,
+                      "status": "suggested",
+                      "isFavorite": false
+
+                  }
+                ]
+
+            },
+            {
+              
+                "id": "d1c4cdbb-5f67-4c29-b7f2-68a3d59d29b0",
+                "title": "Deep Breathing Practices",
+                "bannerText": "Exercises focused on deep breathing to enhance relaxation.",
+                "activities": [
+                  {
+                    
+                      "title": "3-Minute Deep Breathing",
+                      "id": "b3296f22-855b-4b73-9f4c-5b7a3e9c15b3",
+                      "description": "Short 3-minute deep breathing exercise for quick relaxation.",
+                      "activityType": "Mindful Activity",
+                      "mediaType": "audio",
+                      "minDuration": 3,
+                      "maxDuration": 3,
+                      "status": "suggested",
+                      "isFavorite": false
+
+                  },
+                  {
+                    
+                      "title": "Breathing for Calm",
+                      "id": "4cde6b6b-6d98-43b7-b682-bfe0716b3e8f",
+                      "description": "Focus on your breath with this 5-minute exercise.",
+                      "activityType": "Mindful Activity",
+                      "mediaType": "audio",
+                      "minDuration": 5,
+                      "maxDuration": 5,
+                      "status": "suggested",
+                      "isFavorite": false
+
+                  },
+                  {
+                    
+                      "title": "Balanced Breathing",
+                      "id": "d3f5f823-eab2-4b9a-b7b6-4c45f4b0f3b4",
+                      "description": "10-minute breathing exercise to help you balance your emotions.",
+                      "activityType": "Mindful Activity",
+                      "mediaType": "audio",
+                      "minDuration": 10,
+                      "maxDuration": 10,
+                      "status": "suggested",
+                      "isFavorite": false
+
+                  },
+                  {
+                    
+                      "title": "Breath Awareness",
+                      "id": "71f93c0b-d1e4-47d6-a1e4-df76aaf75578",
+                      "description": "A 7-minute practice to increase your awareness of your breath.",
+                      "activityType": "Mindful Activity",
+                      "mediaType": "audio",
+                      "minDuration": 7,
+                      "maxDuration": 7,
+                      "status": "suggested",
+                      "isFavorite": false
+
+                  }
+                ]
+
+            }
+          ]
+
+      }
+    ]
+  }
+}

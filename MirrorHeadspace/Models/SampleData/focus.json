@@ -1,0 +1,290 @@
+{
+    "focusArea": {
+      "id": "Q8f5f1b4b-9b4e-4q9e-9316-5c3g2e08w2c8d",
+      "title": "Focus",
+      "colorTheme": "blue",
+      "featuredActivity": {
+        "title": "Breathing Through Exams",
+        "id": "7c9c2c53-4b73-4aq8-b2b3-42a2d4a9d4db7",
+        "description": "",
+        "activityType": "Mindful Activity",
+        "mediaType": "audio",
+        "minDuration": null,
+        "maxDuration": 1,
+        "status": "suggested",
+        "isFavorite": false
+      },
+      "recentActivities": [
+        {
+          "title": "Jungle Chorus",
+          "id": "2b491c6c-6e7a-47b2-b7e3-27q7442c79c7f",
+          "description": "Practive reframing your stress and letting it go through movement.",
+          "activityType": "Soundscape",
+          "mediaType": "audio",
+          "minDuration": 45,
+          "maxDuration": 500,
+          "status": "suggested",
+          "isFavorite": false
+        }
+      ],
+      "recommendedActivities": [
+        {
+          "title": "Breath with the Dot",
+          "id": "d56c5b58-4b93-4c87-a1db-0de24d9e5ea8",
+          "description": "A 7-minute guided relaxation to ease tension.",
+          "activityType": "Mindful Activity",
+          "mediaType": "audio",
+          "minDuration": null,
+          "maxDuration": 1,
+          "status": "suggested",
+          "isFavorite": false
+        },
+        {
+          "title": "Take 5 Deep Breaths",
+          "id": "b3296f22-855b-4b73-9f4c-5b75e9ec15b3",
+          "description": "A 6-minute deep breathing exercise to calm your mind.",
+          "activityType": "Mindful Activity",
+          "mediaType": "audio",
+          "minDuration": null,
+          "maxDuration": 1,
+          "status": "suggested",
+          "isFavorite": true
+        },
+        {
+            "title": "Antlers",
+            "id": "b3296f22-855b-4b73-9f4c-5b7a3ee9c15b3",
+            "description": "A 6-minute deep breathing exercise to calm your mind.",
+            "activityType": "Video",
+            "mediaType": "audio",
+            "minDuration": null,
+            "maxDuration": 1,
+            "status": "suggested",
+            "isFavorite": false
+          }
+      ],
+      "collections": [
+        {
+          "id": "c1b5e5c4-3f3a-4c92-8ad7-0428e46e35b94",
+          "title": "Focus Music",
+          "description": "Find and keep focus with music from world-renowned artists.",
+          "featuredLists": [
+            {
+              "id": "f5b97bcd-dc70-4c1e-9b74-8d2qdf635e2b4",
+              "title": "Featured",
+              "bannerText": null,
+              "activities": [
+                {
+                    "title": "Making Space",
+                    "id": "7c9c2c53-4b73-4a58e-b2b3-4a244a9d4db7",
+                    "description": "",
+                    "activityType": "Focus Music",
+                    "mediaType": "audio",
+                    "minDuration": null,
+                    "maxDuration": 180,
+                    "status": "suggested",
+                    "isFavorite": false
+                },
+                {
+                    "title": "Study Beats",
+                    "id": "2b491c6c-6e7a-47bbe7e3-fd77d23c79c7f",
+                    "description": "",
+                    "activityType": "Focus Music",
+                    "mediaType": "audio",
+                    "minDuration": null,
+                    "maxDuration": 54,
+                    "status": "suggested",
+                    "isFavorite": false
+                },
+                {
+                    "title": "Low-Rise",
+                    "id": "d56c5b58-4b93-4c87-a1b-0d7e2q44d9e5a8",
+                    "description": "",
+                    "activityType": "Focus Music",
+                    "mediaType": "audio",
+                    "minDuration": null,
+                    "maxDuration": 180,
+                    "status": "suggested",
+                    "isFavorite": false
+                }
+              ]
+            }
+          ],
+          "activityLists": [
+            {
+              "id": "d1c4cdbb-5f67-4c29w-b7f2-8a3d595d29b0",
+              "title": "Featured Artist Playlist",
+              "bannerText": null,
+              "activities": [
+                {
+                    "title": "Aluna's Playlist",
+                    "id": "b3296f22-855b-4b7w3-9f43c-5b7a3ec15b3",
+                    "description": "Short 3-minute deep breathing exercise for quick relaxation.",
+                    "activityType": "Focus Music",
+                    "mediaType": "audio",
+                    "minDuration": null,
+                    "maxDuration": 10,
+                    "status": "suggested",
+                    "isFavorite": false
+                },
+                {
+                    "title": "Arcade Fire's Playlist",
+                    "id": "4cde6b6b-6d98-43b7-b2-w2bfe0716b3e8f",
+                    "description": "Focus on your breath with this 5-minute exercise.",
+                    "activityType": "Focus Music",
+                    "mediaType": "audio",
+                    "minDuration": null,
+                    "maxDuration": 20,
+                    "status": "suggested",
+                    "isFavorite": false
+                },
+                {
+                    "title": "Erykah Badu's Playlist",
+                    "id": "d3f5f823-eab2-49a-b7b6-34wc45f4b0f3b4",
+                    "description": "10-minute breathing exercise to help you balance your emotions.",
+                    "activityType": "Focus Music",
+                    "mediaType": "audio",
+                    "minDuration": null,
+                    "maxDuration": 20,
+                    "status": "suggested",
+                    "isFavorite": false
+                },
+                {
+                    "title": "Hans Zimmer Playlist",
+                    "id": "71f93c0b-d1e4-47wd6-a1e4-d6aaf475578",
+                    "description": "A 7-minute practice to increase your awareness of your breath.",
+                    "activityType": "Focus Music",
+                    "mediaType": "audio",
+                    "minDuration": null,
+                    "maxDuration": 45,
+                    "status": "suggested",
+                    "isFavorite": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "e94b723c-b3b1-4d09-9b8f-dw0656efa87b0",
+          "title": "Sleep Music",
+          "description": "Drift off to sleep with these calming tracks",
+          "featuredLists": [],
+          "activityLists": [
+            {
+                "id": "e3b472b4-58fcw-4c9e-8b125-0e5e8b013fa",
+                "title": "New",
+                "bannerText": null,
+                "activities": [
+                  {
+                      "title": "Fractle Cactus",
+                      "id": "c8d9a5f3-2wd98-4d2a5b7-3a02ec5b5d3a2",
+                      "description": "Meet our signature Headspace sound.",
+                      "activityType": "Sleep Music",
+                      "mediaType": "audio",
+                      "minDuration": 60,
+                      "maxDuration": 480,
+                      "status": "suggested",
+                      "isFavorite": false
+                  },
+                  {
+                      "title": "Blue Wave",
+                      "id": "56d8f3b4-9b65-4d47-bb38-8bfc7e1d13d0d",
+                      "description": "Soothing like soft spring showers.",
+                      "activityType": "Sleep Music",
+                      "mediaType": "audio",
+                      "minDuration": 60,
+                      "maxDuration": 480,
+                      "status": "suggested",
+                      "isFavorite": false
+                  },
+                  {
+                      "title": "Midnight Drift",
+                      "id": "fbcb8c5d-46b8-4b85-918-f2b7w9e6d66f6c",
+                      "description": "Calming, like steady rainfall.",
+                      "activityType": "Sleep Music",
+                      "mediaType": "audio",
+                      "minDuration": 60,
+                      "maxDuration": 480,
+                      "status": "suggested",
+                      "isFavorite": false
+                  },
+                  {
+                      "title": "Supernova",
+                      "id": "8b32c40d51c-4d6b-98c7-03aweb6a9b2c89",
+                      "description": "Deep, list a gust of mountain wind.",
+                      "activityType": "Sleep Music",
+                      "mediaType": "audio",
+                      "minDuration": 60,
+                      "maxDuration": 480,
+                      "status": "suggested",
+                      "isFavorite": false
+                  }
+                ]
+            }
+          ]
+  
+        },
+        {
+          "id": "e94b723c-b3b1-4d09b8f-d066ef63a87b0",
+          "title": "White Noise & Sleep Sounds",
+          "description": "A spectrum of sounds to help you drift off, relax or focus. Eight hours of interruption free sonic dreams. ",
+          "featuredLists": [],
+          "activityLists": [
+            {
+              
+                "id": "e3b472b4-58fc-4c9e-3b2-0de5e8b013fa",
+                "title": "Peaceful Noise",
+                "bannerText": null,
+                "activities": [
+                  {
+                      "title": "Orange Noise",
+                      "id": "c8d9a5f3-2d98-42d29-a5b7-3a0e5b5d3a2",
+                      "description": "Meet our signature Headspace sound.",
+                      "activityType": "Sleep Music",
+                      "mediaType": "audio",
+                      "minDuration": 60,
+                      "maxDuration": 480,
+                      "status": "suggested",
+                      "isFavorite": false
+                  },
+                  {
+                      "title": "Pink Noise",
+                      "id": "56d8b4-9b65-4d47-bb38-8bfc75e1d1d0d",
+                      "description": "Soothing like soft spring showers.",
+                      "activityType": "Sleep Music",
+                      "mediaType": "audio",
+                      "minDuration": 60,
+                      "maxDuration": 480,
+                      "status": "suggested",
+                      "isFavorite": false
+                  },
+                  {
+                      "title": "White Noise",
+                      "id": "fbcb85d-46b8-4b85-9118-f32b79e6d6f6c",
+                      "description": "Calming, like steady rainfall.",
+                      "activityType": "Sleep Music",
+                      "mediaType": "audio",
+                      "minDuration": 60,
+                      "maxDuration": 480,
+                      "status": "suggested",
+                      "isFavorite": false
+                  },
+                  {
+                      "title": "Brown Noise",
+                      "id": "8b340d-251c-4d6b3-98c7-03aeb6a9bc89",
+                      "description": "Deep, list a gust of mountain wind.",
+                      "activityType": "Sleep Music",
+                      "mediaType": "audio",
+                      "minDuration": 60,
+                      "maxDuration": 480,
+                      "status": "suggested",
+                      "isFavorite": false
+                  }
+                ]
+            }
+          ]
+  
+        }
+      ]
+    }
+  }
+  

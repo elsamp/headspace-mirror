@@ -1,0 +1,310 @@
+{
+    "focusArea": {
+      "id": "8f5f1b4b-9b4e-43q9e-9316-5cg2e08w2c8d",
+      "title": "Move",
+      "colorTheme": "pink",
+      "featuredActivity": {
+        "title": "Mobility Workout",
+        "id": "7c9c2c53-4b73-4aq58-b2b3-4a2d4a9d4db7",
+        "description": "Get in touch with your whole body, preserving a range of motion from head to toe.",
+        "activityType": "Workout",
+        "mediaType": "video",
+        "minDuration": null,
+        "maxDuration": 35,
+        "status": "suggested",
+        "isFavorite": false
+      },
+      "recentActivities": [
+        {
+          "title": "Stress Release",
+          "id": "2b491c6c-6e7a-47b2-b7e3-f27q742c79c7f",
+          "description": "Practive reframing your stress and letting it go through movement.",
+          "activityType": "Workout",
+          "mediaType": "video",
+          "minDuration": 10,
+          "maxDuration": 10,
+          "status": "suggested",
+          "isFavorite": false
+        }
+      ],
+      "recommendedActivities": [
+        {
+          "title": "Wind-down Wworkout",
+          "id": "d56c5b58-4b93-4c87-a1db-0d7e24d9e5ea8",
+          "description": "A 7-minute guided relaxation to ease tension.",
+          "activityType": "Workout",
+          "mediaType": "video",
+          "minDuration": null,
+          "maxDuration": 7,
+          "status": "suggested",
+          "isFavorite": false
+        },
+        {
+          "title": "Deep Breaths",
+          "id": "b3296f22-855b-4b73-9f4c-5b7a3e9ec15b3",
+          "description": "A 6-minute deep breathing exercise to calm your mind.",
+          "activityType": "Workout",
+          "mediaType": "video",
+          "minDuration": null,
+          "maxDuration": 6,
+          "status": "suggested",
+          "isFavorite": false
+        },
+        {
+            "title": "Reframing Aniety Mini",
+            "id": "b3296f22-855b-4b73-9f4c-5b7a3ee9c15b3",
+            "description": "A 6-minute deep breathing exercise to calm your mind.",
+            "activityType": "Workout",
+            "mediaType": "video",
+            "minDuration": null,
+            "maxDuration": 6,
+            "status": "suggested",
+            "isFavorite": false
+          }
+      ],
+      "collections": [
+        {
+          "id": "c1b5e5c4-3f3a-4c92-8ad7-0428e46eq5b94",
+          "title": "Feel Good Yoga",
+          "description": "Yoga class for waking up, falling asleep, and every breath in between",
+          "featuredLists": [
+            {
+              "id": "f5b97bcd-dc70-4c1e-9b74-8d2qd6f65e2b4",
+              "title": "Featured Classes",
+              "bannerText": null,
+              "activities": [
+                {
+                    "title": "Morning Check-in",
+                    "id": "7c9c2c53-4b73-4a58e-b2b3-4a2d4a9d4db7",
+                    "description": "",
+                    "activityType": "Workout",
+                    "mediaType": "video",
+                    "minDuration": null,
+                    "maxDuration": 8,
+                    "status": "suggested",
+                    "isFavorite": false
+                },
+                {
+                    "title": "Seated Stretch Break",
+                    "id": "2b491c6c-6e7a-47b2-be7e3-fd77d2c79c7f",
+                    "description": "",
+                    "activityType": "Workout",
+                    "mediaType": "video",
+                    "minDuration": null,
+                    "maxDuration": 10,
+                    "status": "suggested",
+                    "isFavorite": false
+                },
+                {
+                    "title": "Easy Evening Stretch",
+                    "id": "d56c5b58-4b93-4c87-a1db-0d7e2q4d9e5a8",
+                    "description": "",
+                    "activityType": "Workout",
+                    "mediaType": "video",
+                    "minDuration": null,
+                    "maxDuration": 7,
+                    "status": "suggested",
+                    "isFavorite": false
+                }
+              ]
+            }
+          ],
+          "activityLists": [
+            {
+              "id": "d1c4cdbb-5f67-4c29w-b7f2-68a3d59d29b0",
+              "title": "Good Morning",
+              "bannerText": null,
+              "activities": [
+                {
+                    "title": "Rise and Shine",
+                    "id": "b3296f22-855b-4b7w3-9f4c-5b7a3e9c15b3",
+                    "description": "Short 3-minute deep breathing exercise for quick relaxation.",
+                    "activityType": "Mindful Activity",
+                    "mediaType": "video",
+                    "minDuration": null,
+                    "maxDuration": 10,
+                    "status": "suggested",
+                    "isFavorite": false
+                },
+                {
+                    "title": "Uplifting Infusion",
+                    "id": "4cde6b6b-6d98-43b7-b682-wbfe0716b3e8f",
+                    "description": "Focus on your breath with this 5-minute exercise.",
+                    "activityType": "Mindful Activity",
+                    "mediaType": "video",
+                    "minDuration": null,
+                    "maxDuration": 20,
+                    "status": "suggested",
+                    "isFavorite": false
+                },
+                {
+                    "title": "Wake-up Stretch",
+                    "id": "d3f5f823-eab2-4b9a-b7b6-4wc45f4b0f3b4",
+                    "description": "10-minute breathing exercise to help you balance your emotions.",
+                    "activityType": "Mindful Activity",
+                    "mediaType": "video",
+                    "minDuration": null,
+                    "maxDuration": 20,
+                    "status": "suggested",
+                    "isFavorite": false
+                },
+                {
+                    "title": "Energizing Flow",
+                    "id": "71f93c0b-d1e4-47wd6-a1e4-df76aaf75578",
+                    "description": "A 7-minute practice to increase your awareness of your breath.",
+                    "activityType": "Mindful Activity",
+                    "mediaType": "video",
+                    "minDuration": null,
+                    "maxDuration": 45,
+                    "status": "suggested",
+                    "isFavorite": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "e94b723c-b3b1-4d09-9b8f-dw066etf6a87b0",
+          "title": "Mind and Movement",
+          "description": "Boost your performance with mindfulness",
+          "featuredLists": [],
+          "activityLists": [
+            {
+                "id": "e3b472b4-58fcw-4c9qe-8b12-0de5e8b013fa",
+                "title": "Sports Exercise",
+                "bannerText": null,
+                "activities": [
+                  {
+                      "title": "Sports | Analysis",
+                      "id": "c8d9a5f3-2wd98-4d2t9-a5b7-3a0ec5b5d3a2",
+                      "description": "Meet our signature Headspace sound.",
+                      "activityType": "Workout",
+                      "mediaType": "video",
+                      "minDuration": 60,
+                      "maxDuration": 480,
+                      "status": "suggested",
+                      "isFavorite": false
+                  },
+                  {
+                      "title": "Sports | Communication",
+                      "id": "56d8f3b4-9b65-4dr7-bbw38-8bfc7e1d1d0d",
+                      "description": "Soothing like soft spring showers.",
+                      "activityType": "Workout",
+                      "mediaType": "video",
+                      "minDuration": 60,
+                      "maxDuration": 480,
+                      "status": "suggested",
+                      "isFavorite": false
+                  },
+                  {
+                      "title": "Sports | Competition",
+                      "id": "fbcb8c5d-46b8-4b85w-9118-f2b7w9e6d6f6c",
+                      "description": "Calming, like steady rainfall.",
+                      "activityType": "Workout",
+                      "mediaType": "video",
+                      "minDuration": 60,
+                      "maxDuration": 480,
+                      "status": "suggested",
+                      "isFavorite": false
+                  },
+                  {
+                      "title": "Sports | Concentration",
+                      "id": "8b32c40d-251c-4d6b-9q8c7-03aweb6a9bc89",
+                      "description": "Deep, list a gust of mountain wind.",
+                      "activityType": "Workout",
+                      "mediaType": "video",
+                      "minDuration": 60,
+                      "maxDuration": 480,
+                      "status": "suggested",
+                      "isFavorite": false
+                  }
+                ]
+            }
+          ]
+  
+        },
+        {
+            "id": "d94f124c-6b4b-4e70-a4c7-9e88cbtt4e99eb",
+            "title": "Lincon Center Dance Breaks",
+            "description": "Get in the groove with dance moves from around the world.",
+            "featuredLists": [],
+            "activityLists": [
+              {
+                  "id": "dd7e5c91-85c4-4c90-92tb0-b8d98d11877e",
+                  "title": "Explore Dance",
+                  "bannerText": null,
+                  "activities": [
+                    {
+                        "title": "Samba 101",
+                        "id": "a18e4c61-989b-4bqw72-bf8d-b0a571e6c4c1",
+                        "description": "Allow relaxation to naturally arise",
+                        "activityType": "Workout",
+                        "mediaType": "video",
+                        "minDuration": null,
+                        "maxDuration": 7,
+                        "status": "suggested",
+                        "isFavorite": false
+                    },
+                    {
+                        "title": "Salsa 101",
+                        "id": "15d4a1e5-2f91-4e7te0-b1b7-1dcd27e0d1e3",
+                        "description": "Gentle, deep breathing to help you unwind.",
+                        "activityType": "Workout",
+                        "mediaType": "video",
+                        "minDuration": null,
+                        "maxDuration": 5,
+                        "status": "suggested",
+                        "isFavorite": false
+                    },
+                    {
+                        "title": "Waaking 101",
+                        "id": "bde7d517-27a4-4c3d-b4c4-d1dbd39a8a32",
+                        "description": "Let gratitude surround you like a warm hug",
+                        "activityType": "Workout",
+                        "mediaType": "video",
+                        "minDuration": null,
+                        "maxDuration": 4,
+                        "status": "suggested",
+                        "isFavorite": false
+                    },
+                    {
+                        "title": "Kuku 101",
+                        "id": "e0f9a1b3-7e2ttf-4d1e-bb9e-827a6d1e9c8f",
+                        "description": "Imagin a soft breeze flowing over your body.",
+                        "activityType": "Workout",
+                        "mediaType": "video",
+                        "minDuration": 6,
+                        "maxDuration": 6,
+                        "status": "suggested",
+                        "isFavorite": false
+                    },
+                    {
+                        "title": "Voguing 101",
+                        "id": "e0f9a1b3-7e2f-4ewd1e-bb9e-827a6d1e9c8f",
+                        "description": "Imagin a soft breeze flowing over your body.",
+                        "activityType": "Workout",
+                        "mediaType": "video",
+                        "minDuration": 6,
+                        "maxDuration": 6,
+                        "status": "suggested",
+                        "isFavorite": false
+                    },
+                    {
+                        "title": "Exploring Disability & movement",
+                        "id": "e0f9a1b3-7e2f-4dw1e-bb9e-827a6d1e9c8f",
+                        "description": "Imagin a soft breeze flowing over your body.",
+                        "activityType": "Workout",
+                        "mediaType": "video",
+                        "minDuration": 6,
+                        "maxDuration": 6,
+                        "status": "suggested",
+                        "isFavorite": false
+                    }
+                  ]
+              }
+            ]
+        }
+      ]
+    }
+  }
+  
