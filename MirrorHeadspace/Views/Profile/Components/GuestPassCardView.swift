@@ -39,7 +39,7 @@ struct GuestPassCardView: View {
         
     }
     
-    var friendImageView: some View {
+    private var friendImageView: some View {
         VStack {
             ZStack {
                 SparkleDiamond()
@@ -63,7 +63,7 @@ struct GuestPassCardView: View {
         
     }
     
-    var friend1View: some View {
+    private var friend1View: some View {
         ZStack {
             Semicircle()
                 .rotation(Angle(degrees: 180))
@@ -77,7 +77,7 @@ struct GuestPassCardView: View {
         .frame(height: 135)
     }
     
-    var friend2View: some View {
+    private var friend2View: some View {
         ZStack {
             Semicircle()
                 .rotation(Angle(degrees: 200))
@@ -102,7 +102,7 @@ struct GuestPassCardView: View {
         .rotationEffect(Angle(degrees: -20))
     }
     
-    @ViewBuilder var faceView: some View {
+    @ViewBuilder private var faceView: some View {
         eyeView
             .offset(CGSize(width: -10, height: 0))
         eyeView
@@ -110,7 +110,7 @@ struct GuestPassCardView: View {
         smileView
     }
     
-    var smileView: some View {
+    private var smileView: some View {
         GeometryReader { geometry in
             Path { path in
                 path.addArc(center: CGPoint(x: geometry.frame(in: .local).midX,
@@ -124,7 +124,7 @@ struct GuestPassCardView: View {
         }
     }
     
-    var eyeView: some View {
+    private var eyeView: some View {
         GeometryReader { geometry in
             Path { path in
                 path.addArc(center: CGPoint(x: geometry.frame(in: .local).midX,

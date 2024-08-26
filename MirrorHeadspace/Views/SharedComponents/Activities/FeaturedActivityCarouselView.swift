@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct FeaturedActivityListTabView: View {
+struct FeaturedActivityCarouselView: View {
     
     let activityList: ActivityList
     @State private var scrollIndex: Int?
@@ -22,10 +22,10 @@ struct FeaturedActivityListTabView: View {
                 .foregroundStyle(.white)
             VStack {
                 ScrollView(.horizontal) {
-                    HStack(spacing: 20) {
+                    LazyHStack(spacing: 20) {
                         ForEach(0..<activityList.activities.count, id: \.self) { index in
                             NavigationLink(value: activityList.activities[index]) {
-                                FeaturedActivityCardView(activity: activityList.activities[index])
+                                FeaturedActivityCarouselItemView(activity: activityList.activities[index])
                                     .containerRelativeFrame(.horizontal, count: 1, spacing: 0)
                             }
                         }
@@ -41,7 +41,7 @@ struct FeaturedActivityListTabView: View {
         }
     }
     
-    func pageIndicatorView(at index: Int, totalPages: Int) -> some View {
+    private func pageIndicatorView(at index: Int, totalPages: Int) -> some View {
         ZStack {
             HStack {
                 ForEach(0..<totalPages, id: \.self) { i in
@@ -58,6 +58,6 @@ struct FeaturedActivityListTabView: View {
 #Preview {
     ZStack {
         Color.mainBackground
-        FeaturedActivityListTabView(activityList: PreviewHelper.shared.exampleActivityList())
+        FeaturedActivityCarouselView(activityList: PreviewHelper.shared.exampleActivityList())
     }
 }

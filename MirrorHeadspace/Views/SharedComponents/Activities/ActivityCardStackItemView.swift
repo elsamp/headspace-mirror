@@ -7,19 +7,17 @@
 
 import SwiftUI
 
-struct ActivityCardView: View {
+struct ActivityCardStackItemView: View {
     
     let activity: Activity
     
     var body: some View {
         
         HStack(alignment: .center) {
-            
  
             GeometryReader { geometry in
 
                 ActivityStatusIndicatorView(status: activity.status)
-                    
                     .preference(key: NodePositionKey.self,
                                 value: [activity.id: CGPoint(x: geometry.frame(in: .named("cardStack")).midX,
                                                              y: geometry.frame(in: .named("cardStack")).midY)])
@@ -30,27 +28,18 @@ struct ActivityCardView: View {
             
             ZStack {
                 
-                cardBackground()
+                cardBackground
                 
                 HStack {
                     VStack(alignment: .leading) {
-                        activityTitle()
+                        activityTitle
                             .fixedSize(horizontal: false, vertical: true)
-                        activityType()
-                        activityDuration()
-                        activityMenuButton()
+                        activityType
+                        activityDuration
+                        activityMenuButton
                     }
                     
-                    //Replace with Image
-                    Rectangle()
-                        .containerRelativeFrame(.horizontal, count: 11, span: 3, spacing: 0)
-                        .clipShape(.rect(cornerRadii: RectangleCornerRadii(topLeading: 10,
-                                                                           bottomLeading: 10,
-                                                                           bottomTrailing: 10,
-                                                                           topTrailing: 10)))
-                        .opacity(0.2)
-                        .padding(.leading, 10)
-                        .padding(.vertical, 10)
+                    activityImage
                 }
             }
             .containerRelativeFrame(.horizontal, count: 12, span: 10, spacing: 0)
@@ -58,7 +47,7 @@ struct ActivityCardView: View {
         .multilineTextAlignment(.leading)
     }
     
-    func cardBackground() -> some View {
+    private var cardBackground: some View {
         Color.white
             .opacity(0.2)
             .clipShape(.rect(cornerRadii: RectangleCornerRadii(topLeading: 15,
@@ -67,7 +56,7 @@ struct ActivityCardView: View {
                                                                topTrailing: 15)))
     }
     
-    func activityTitle() -> some View {
+    private var activityTitle: some View {
         Text(activity.title)
             .font(.title3)
             .fontWeight(.semibold)
@@ -77,7 +66,7 @@ struct ActivityCardView: View {
             .padding(.top, 8)
     }
     
-    func activityType() -> some View {
+    private var activityType: some View {
         HStack {
             Image(systemName: (activity.mediaType == .video) ? "play.rectangle" : "speaker.wave.2")
                 .foregroundStyle(.white)
@@ -91,14 +80,27 @@ struct ActivityCardView: View {
         }
     }
     
-    func activityDuration() -> some View {
+    private var activityDuration: some View {
         Text((activity.minDuration != nil ? String(activity.minDuration!) + "-" : "") + "\(activity.maxDuation) min")
             .foregroundStyle(.white)
             .opacity(0.4)
             .font(.caption)
     }
+    
+    private var activityImage: some View {
+        //Replace with Image
+        Rectangle()
+            .containerRelativeFrame(.horizontal, count: 11, span: 3, spacing: 0)
+            .clipShape(.rect(cornerRadii: RectangleCornerRadii(topLeading: 10,
+                                                               bottomLeading: 10,
+                                                               bottomTrailing: 10,
+                                                               topTrailing: 10)))
+            .opacity(0.2)
+            .padding(.leading, 10)
+            .padding(.vertical, 10)
+    }
        
-    func activityMenuButton() -> some View {
+    private var activityMenuButton: some View {
         Button {
             //TODO: open menu
         } label: {
@@ -118,7 +120,7 @@ struct ActivityCardView: View {
         ScrollView {
             VStack {
                 Color(.mainBackground)
-                ActivityCardView(activity: PreviewHelper.shared.exampleActivity())
+                ActivityCardStackItemView(activity: PreviewHelper.shared.exampleActivity())
             }
         }
         .background(.mainBackground)

@@ -10,14 +10,14 @@ import SwiftUI
 struct HomeView: View {
     
     let viewModel: HomeViewModel
-    @State private var isPresented = false
+    let user: User
     
     var body: some View {
         NavigationStack {
             ScrollView(.vertical) {
                 VStack(alignment: .leading) {
                     
-                    Text("Good afternoon, Mark")
+                    Text("Good afternoon, \(user.firstName)")
                         .foregroundStyle(.white)
                         .font(.title)
                         .fontWeight(.bold)
@@ -25,13 +25,13 @@ struct HomeView: View {
                         .padding(.bottom, 20)
                     
                     //Morning
-                    ActivityCardStackView(activities: viewModel.morningActivities, listTitle: "Start your day")
+                    ActivityCardStackView(activityList: viewModel.getActivityList(for: .dailySuggestedMorning))
                     
                     //Afternoon
-                    ActivityCardStackView(activities: viewModel.afternoonActivities, listTitle: "Your afternoon lift")
+                    ActivityCardStackView(activityList: viewModel.getActivityList(for: .dailySuggestedAfternoon))
                     
                     //Evening
-                    ActivityCardStackView(activities: viewModel.eveningActivities, listTitle: "At night")
+                    ActivityCardStackView(activityList: viewModel.getActivityList(for: .dailySuggestedEvening))
                     
                 }
             }
@@ -39,12 +39,12 @@ struct HomeView: View {
             .background(.mainBackground)
             .toolbar {
                 ToolbarItem{
-                    NavigationLink(value: viewModel.favoriteActivities()) {
+                    NavigationLink(value: viewModel.getActivityList(for: .favorite)) {
                         Image(systemName: "heart")
                     }
                 }
                 ToolbarItem{
-                    NavigationLink(value: viewModel.recentActivities()) {
+                    NavigationLink(value: viewModel.getActivityList(for: .recent)) {
                         Image(systemName: "clock")
                     }
                 }
@@ -65,5 +65,5 @@ struct HomeView: View {
 }
 
 #Preview {
-    HomeView(viewModel: HomeViewModel(dataService: PreviewHelper.shared))
+    HomeView(viewModel: HomeViewModel(dataService: PreviewHelper.shared), user: PreviewHelper.shared.getActiveUser())
 }

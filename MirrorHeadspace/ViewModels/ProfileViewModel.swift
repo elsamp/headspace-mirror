@@ -31,7 +31,7 @@ class ProfileViewModel {
     }
     
     var recentActivities: ActivityList {
-        dataService.getRecentActivities(title: "Activity history")
+        dataService.fetchActivityList(for: .recent)
     }
     
     init(dataService: ActivityDataServiceProtocol, user: User) {

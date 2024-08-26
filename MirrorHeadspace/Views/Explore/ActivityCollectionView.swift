@@ -26,7 +26,7 @@ struct ActivityCollectionView: View {
                 //Featured Lists Swipe View
                 if let activityLists = collection.featuredLists {
                     ForEach(activityLists) { list in
-                        FeaturedActivityListTabView(activityList: list)
+                        FeaturedActivityCarouselView(activityList: list)
                             .containerRelativeFrame(.vertical, count: 8, span: 3, spacing: 0)
                             .padding(.bottom, 20)
 

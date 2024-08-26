@@ -17,7 +17,7 @@ struct FocusAreaView: View {
                 headerView
                 VStack(alignment: .leading) {
 
-                    //Recent/Reccomended
+                    //TODO: Recent/Reccomended Tab View
                     
                     //Collection List
                     Text("Explore \(focusArea.title)")
@@ -36,7 +36,7 @@ struct FocusAreaView: View {
         .toolbarBackground(.mainBackground, for: .navigationBar)
     }
     
-    var headerView: some View {
+    private var headerView: some View {
         ZStack {
             ImageHeaderView {
                 //TODO: Replace with graphic

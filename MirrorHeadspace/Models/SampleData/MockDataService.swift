@@ -78,6 +78,21 @@ struct MockDataService: FocusAreaDataServiceProtocol, ActivityDataServiceProtoco
     }
     
     //MARK: ActivityDataServiceProtocol
+    func fetchActivityList(for useCase: ActivityListUseCase) -> ActivityList {
+        switch useCase {
+        case .recent:
+            return getRecentActivities(title: "Recent")
+        case .favorite:
+            return getFavoriteActivities(title: "Favorite")
+        case .dailySuggestedMorning:
+            return ActivityList(activities: getMorningActivities(), title: "Start your day")
+        case .dailySuggestedAfternoon:
+            return ActivityList(activities: getAfternoonActivities(), title: "Your afternoon lift")
+        case .dailySuggestedEvening:
+            return ActivityList(activities: getEveningActivities(), title: "At night")
+        }
+    }
+    
     func getMorningActivities() -> [Activity] {
         let list = [
             

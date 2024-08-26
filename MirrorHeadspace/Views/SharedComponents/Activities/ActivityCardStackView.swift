@@ -19,9 +19,7 @@ extension HorizontalAlignment {
 
 struct ActivityCardStackView: View {
     
-    let activities: [Activity]
-    let listTitle: String?
-    
+    let activityList: ActivityList
     @State private var positions: [String: CGPoint] = [:]
     
     var body: some View {
@@ -29,26 +27,24 @@ struct ActivityCardStackView: View {
         ZStack {
             VStack(alignment: .cardStackTitleAndStatusIndicator) {
                 
-                if let title = listTitle {
-                    Text(title)
-                        .font(.title2)
-                        .fontWeight(.bold)
-                        .foregroundStyle(.white)
-                        .alignmentGuide(.cardStackTitleAndStatusIndicator) { d in
-                            d[.leading]
-                        }
-                }
+                Text(activityList.title)
+                    .font(.title2)
+                    .fontWeight(.bold)
+                    .foregroundStyle(.white)
+                    .alignmentGuide(.cardStackTitleAndStatusIndicator) { d in
+                        d[.leading]
+                    }
                 
                 ZStack {
                     
                     //Dashed line between activity status indicators
                     Path { path in
                         
-                        if let position = positions[activities[0].id] {
+                        if let position = positions[activityList.activities[0].id] {
                             path.move(to: position)
                         }
 
-                        for activity in activities {
+                        for activity in activityList.activities {
                             if let position = positions[activity.id] {
                                 path.addLine(to: position)
                             }
@@ -60,9 +56,9 @@ struct ActivityCardStackView: View {
                     
                     //Activity Cards
                     VStack {
-                        ForEach(activities) { activity in
+                        ForEach(activityList.activities) { activity in
                             NavigationLink(value: activity) {
-                                ActivityCardView(activity: activity)
+                                ActivityCardStackItemView(activity: activity)
                                     .alignmentGuide(.cardStackTitleAndStatusIndicator) { d in
                                         d[.leading]
                                     }
@@ -83,7 +79,7 @@ struct ActivityCardStackView: View {
         }
     }
     
-    func connectDots(points: [CGPoint]) -> some View{
+    private func connectDots(points: [CGPoint]) -> some View{
         Path { path in
             path.move(to: points[0])
             
@@ -100,7 +96,7 @@ struct ActivityCardStackView: View {
         Color(.mainBackground)
         ScrollView {
             VStack {
-                ActivityCardStackView(activities: PreviewHelper.shared.exampleActivityArray(), listTitle: "Start your day")
+                ActivityCardStackView(activityList: PreviewHelper.shared.fetchActivityList(for: .favorite))
             }
         }
     }

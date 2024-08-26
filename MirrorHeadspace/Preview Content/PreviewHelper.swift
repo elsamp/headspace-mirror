@@ -104,7 +104,8 @@ struct PreviewHelper: FocusAreaDataServiceProtocol, ActivityDataServiceProtocol,
     func exampleCollection() -> ActivityCollection {
         
         let featuredList = ActivityList(activities: [
-            Activity(title: "Calming Election Anxiety", description: "Focus on what's in your control", activityType: .meditation, mediaType: .audio, maxDuation: 8)
+            Activity(title: "Calming Election Anxiety", description: "Focus on what's in your control", activityType: .meditation, mediaType: .audio, maxDuation: 8),
+            Activity(title: "Pause With 5 Calming Breaths", description: "", activityType: .mindfulActivity, mediaType: .video, maxDuation: 1, status: .complete),
         ], title: "Featured")
         
         return ActivityCollection(title: "Politics Without Panic",
@@ -134,6 +135,21 @@ struct PreviewHelper: FocusAreaDataServiceProtocol, ActivityDataServiceProtocol,
     }
     
     //MARK: HomeViewDataSource
+    func fetchActivityList(for useCase: ActivityListUseCase) -> ActivityList {
+        switch useCase {
+        case .recent:
+            return getRecentActivities(title: "Recent")
+        case .favorite:
+            return getFavoriteActivities(title: "Favorite")
+        case .dailySuggestedMorning:
+            return ActivityList(activities: getMorningActivities(), title: "Start your day")
+        case .dailySuggestedAfternoon:
+            return ActivityList(activities: getAfternoonActivities(), title: "Your afternoon lift")
+        case .dailySuggestedEvening:
+            return ActivityList(activities: getEveningActivities(), title: "At night")
+        }
+    }
+    
     func getMorningActivities() -> [Activity] {
         exampleMorningActivityArray()
     }

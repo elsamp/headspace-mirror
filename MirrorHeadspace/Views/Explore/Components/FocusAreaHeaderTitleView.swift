@@ -27,7 +27,7 @@ struct FocusAreaHeaderTitleView: View {
         
     }
     
-    var reccomendedPill: some View {
+    private var reccomendedPill: some View {
         Text("Recommended")
             .foregroundStyle(.mainAccent)
             .font(.caption)
@@ -40,7 +40,7 @@ struct FocusAreaHeaderTitleView: View {
             )
     }
     
-    var ctaButton: some View {
+    private var ctaButton: some View {
         Button() {
             
         } label: {

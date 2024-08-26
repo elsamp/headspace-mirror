@@ -13,7 +13,7 @@ struct MainView: View {
     
     var body: some View {
         TabView {
-            HomeView(viewModel: HomeViewModel(dataService: viewModel.activityDataService))
+            HomeView(viewModel: HomeViewModel(dataService: viewModel.activityDataService), user: viewModel.activeUser)
                 .tabItem {
                     Label("Today", systemImage: "house.fill")
                 }

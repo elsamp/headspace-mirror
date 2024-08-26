@@ -39,7 +39,7 @@ struct ProfileStatsView: View {
         }
     }
     
-    func statRowItem(statText: String, subText: String, @ViewBuilder iconView: () -> some View) -> some View {
+    private func statRowItem(statText: String, subText: String, @ViewBuilder iconView: () -> some View) -> some View {
         HStack {
             iconView()
                 .frame(width: 25, height: 25)

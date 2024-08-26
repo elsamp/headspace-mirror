@@ -15,31 +15,31 @@ struct ActivityStatusIndicatorView: View {
         VStack {
             switch status {
             case .suggested:
-                suggestedView()
+                suggestedView
             case .active:
-                activeView()
+                activeView
             case .complete:
-                completeView()
+                completeView
             }
         }
     }
     
     
-    func suggestedView() -> some View {
+    private var suggestedView: some View {
         Circle()
             .fill(.mainBackground)
             .stroke(.mainAccent, lineWidth: 2)
 
     }
     
-    func activeView() -> some View {
+    private var activeView: some View {
         Circle()
             .fill(.orange)
             .stroke(.red, lineWidth: 2)
             
     }
     
-    func completeView() -> some View {
+    private var completeView: some View {
         ZStack {
             Circle()
                 .fill(.green)
@@ -56,5 +56,7 @@ struct ActivityStatusIndicatorView: View {
     ZStack {
         Color(.mainBackground)
         ActivityStatusIndicatorView(status: .active)
+            .frame(width: 20, height: 20)
     }
+    
 }

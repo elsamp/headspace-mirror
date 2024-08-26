@@ -26,7 +26,7 @@ struct ActivityListView: View {
             ForEach(activityList.activities) { activity in
                 
                 NavigationLink(value: activity) {
-                    ActivityListRowItem(activity: activity)
+                    ActivityListRowItemView(activity: activity)
                 }
                 .listRowBackground(Color.mainBackground)
                 .padding(.vertical, rowItemPadding)

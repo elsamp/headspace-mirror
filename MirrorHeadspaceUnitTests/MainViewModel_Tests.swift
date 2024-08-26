@@ -109,6 +109,10 @@ final class MainViewModel_Tests: XCTestCase {
 }
 
 struct MockActivityDataService: ActivityDataServiceProtocol {
+    func fetchActivityList(for useCase: MirrorHeadspace.ActivityListUseCase) -> MirrorHeadspace.ActivityList {
+        ActivityList(activities: [], title: "Test")
+    }
+    
     func getMorningActivities() -> [MirrorHeadspace.Activity] { [] }
     
     func getAfternoonActivities() -> [MirrorHeadspace.Activity] { [] }

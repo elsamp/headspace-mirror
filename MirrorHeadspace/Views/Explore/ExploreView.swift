@@ -15,11 +15,11 @@ struct ExploreView: View {
     var body: some View {
         NavigationStack {
             VStack {
-                searchBarView()
+                searchBarView
                 ScrollView {
                     VStack {
-                        focusAreaGrid()
-                        collectionList()
+                        focusAreaGrid
+                        collectionList
                     }
                 }
                 .background(.mainBackground)
@@ -29,6 +29,9 @@ struct ExploreView: View {
                 .navigationDestination(for: ActivityCollection.self) { collection in
                     ActivityCollectionView(collection: collection)
                 }
+                .navigationDestination(for: Activity.self) { activity in
+                    ActivityDetailView(activity: activity)
+                }
             }
             .background(.mainBackground)
             
@@ -37,7 +40,7 @@ struct ExploreView: View {
         
     }
     
-    func searchBarView() -> some View {
+    private var searchBarView: some View {
         HStack {
             Image(systemName: "magnifyingglass")
                 .font(.title2)
@@ -55,17 +58,25 @@ struct ExploreView: View {
         .padding(.bottom, 15)
     }
     
-    func focusAreaGrid() -> some View {
+    private var focusAreaGrid: some View {
         LazyVGrid(columns: [GridItem(.adaptive(minimum: 150, maximum: 400), spacing: 12)]) {
             ForEach(viewModel.focusAreas) { focusArea in
-                focusAreaGridItem(focusArea: focusArea)
+                focusAreaGridItem(for: focusArea)
             }
         }
         .padding(.horizontal, 4)
         .padding(.bottom, 5)
     }
     
-    func focusAreaGridItem(focusArea: FocusArea) -> some View{
+    private var collectionList: some View {
+        VStack {
+            ForEach(viewModel.collections) { collection in
+                collectionListItem(for: collection)
+            }
+        }
+    }
+    
+    private func focusAreaGridItem(for focusArea: FocusArea) -> some View{
         NavigationLink(value: focusArea) {
             ZStack {
                 backgroundView(for: focusArea.colorTheme)
@@ -82,30 +93,7 @@ struct ExploreView: View {
         }
     }
     
-    @ViewBuilder func backgroundView(for theme: ColorTheme) -> some View {
-        switch theme {
-        case .orange:
-            SunshineBGView(palette: ColorPaletteManager.shared.colorPalette(for: .orange))
-        case .purple:
-            StarryNightBGView(palette: ColorPaletteManager.shared.colorPalette(for: .purple))
-        case .blue:
-            CirclesBGView(palette: ColorPaletteManager.shared.colorPalette(for: .blue))
-        case .pink:
-            TriangleBGView(palette: ColorPaletteManager.shared.colorPalette(for: .pink))
-        default:
-            SunshineBGView(palette: ColorPaletteManager.shared.colorPalette(for: .orange))
-        }
-    }
-    
-    func collectionList() -> some View {
-        VStack {
-            ForEach(viewModel.collections) { collection in
-                collectionListItem(collection: collection)
-            }
-        }
-    }
-    
-    func collectionListItem(collection: ActivityCollection) -> some View {
+    private func collectionListItem(for collection: ActivityCollection) -> some View {
         
         let randomColor = randomColor()
         
@@ -124,6 +112,21 @@ struct ExploreView: View {
                     .font(.headline)
                     .padding(.horizontal, 30)
             }
+        }
+    }
+    
+    @ViewBuilder private func backgroundView(for theme: ColorTheme) -> some View {
+        switch theme {
+        case .orange:
+            SunshineBGView(palette: ColorPaletteManager.shared.colorPalette(for: .orange))
+        case .purple:
+            StarryNightBGView(palette: ColorPaletteManager.shared.colorPalette(for: .purple))
+        case .blue:
+            CirclesBGView(palette: ColorPaletteManager.shared.colorPalette(for: .blue))
+        case .pink:
+            TriangleBGView(palette: ColorPaletteManager.shared.colorPalette(for: .pink))
+        default:
+            SunshineBGView(palette: ColorPaletteManager.shared.colorPalette(for: .orange))
         }
     }
     

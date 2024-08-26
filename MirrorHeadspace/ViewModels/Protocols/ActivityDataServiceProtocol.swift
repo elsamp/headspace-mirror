@@ -7,10 +7,14 @@
 
 import Foundation
 
+enum ActivityListUseCase {
+    case recent
+    case favorite
+    case dailySuggestedMorning
+    case dailySuggestedAfternoon
+    case dailySuggestedEvening
+}
+
 protocol ActivityDataServiceProtocol {
-    func getMorningActivities() -> [Activity]
-    func getAfternoonActivities() -> [Activity]
-    func getEveningActivities() -> [Activity]
-    func getRecentActivities(title: String?) -> ActivityList
-    func getFavoriteActivities(title: String?) -> ActivityList
+    func fetchActivityList(for useCase: ActivityListUseCase) -> ActivityList
 }

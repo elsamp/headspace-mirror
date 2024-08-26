@@ -39,7 +39,7 @@ struct ProfileIconView: View {
         
     }
     
-    @ViewBuilder var face: some View {
+    @ViewBuilder private var face: some View {
         Semicircle().rotation(Angle(degrees: 180))
             .stroke(skinColor, style: stroke)
             .fill(skinColor)
@@ -53,7 +53,7 @@ struct ProfileIconView: View {
         
     }
     
-    var smile: some View {
+    private var smile: some View {
         Path { path in
             path.addArc(center: CGPoint(x: 25, y:-10),
                         radius: 25,
@@ -64,7 +64,7 @@ struct ProfileIconView: View {
         .stroke(smileColor, style: StrokeStyle(lineWidth: 2, lineCap: .round))
     }
     
-    @ViewBuilder var eyes: some View {
+    @ViewBuilder private var eyes: some View {
         Path { path in
             path.addArc(center: CGPoint(x: 18, y:3),
                         radius: 5,

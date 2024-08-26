@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ActivityListRowItem: View {
+struct ActivityListRowItemView: View {
     
     let activity: Activity
     
@@ -57,7 +57,7 @@ struct ActivityListRowItem: View {
     ZStack {
         Color.mainBackground
         List{
-            ActivityListRowItem(activity: PreviewHelper.shared.exampleActivity())
+            ActivityListRowItemView(activity: PreviewHelper.shared.exampleActivity())
                 .listRowBackground(Color.mainBackground)
         }
         .listStyle(.plain)

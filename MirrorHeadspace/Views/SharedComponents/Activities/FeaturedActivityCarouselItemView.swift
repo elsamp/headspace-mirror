@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct FeaturedActivityCardView: View {
+struct FeaturedActivityCarouselItemView: View {
     
     let activity: Activity
     
@@ -43,5 +43,5 @@ struct FeaturedActivityCardView: View {
 }
 
 #Preview {
-    FeaturedActivityCardView(activity: PreviewHelper.shared.exampleActivity())
+    FeaturedActivityCarouselItemView(activity: PreviewHelper.shared.exampleActivity())
 }

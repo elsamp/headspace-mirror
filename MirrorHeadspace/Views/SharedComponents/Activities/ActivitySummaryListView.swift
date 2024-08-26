@@ -20,7 +20,7 @@ struct ActivitySummaryListView: View {
                 .foregroundStyle(.white)
             
             ForEach(0..<3) { index in
-                ActivityListRowItem(activity: activityList.activities[index])
+                ActivityListRowItemView(activity: activityList.activities[index])
                     .padding(.vertical, 10)
             }
             

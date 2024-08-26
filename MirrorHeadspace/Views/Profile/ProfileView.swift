@@ -55,7 +55,7 @@ struct ProfileView: View {
         
     }
     
-    var headerView: some View {
+    private var headerView: some View {
         ZStack {
             ImageHeaderView {
                 //TODO: Replace with graphic
@@ -72,7 +72,7 @@ struct ProfileView: View {
         }
     }
     
-    var settingsButton: some View {
+    private var settingsButton: some View {
         
         Button {
             //TODO: open settings
